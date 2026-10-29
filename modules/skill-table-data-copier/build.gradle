@@ -1,0 +1,9 @@
+description = 'Excel(.xlsx/.csv) and TXT tabular data column substitution preview and DB insert(copy) standalone module'
+
+dependencies {
+    // 런타임 외부 의존성 Zero (순수 Java 21 표준 라이브러리 + java.sql + java.util.zip/xml 사용)
+    // 타 프로그램에서 skill-table-data-copier-1.0.0.jar 단일 파일만 추가해도 즉시 동작
+    // MS Access 접속 시 런타임 클래스패스에 UCanAccess 드라이버만 있으면 자동 연동
+
+    testImplementation 'com.h2database:h2:2.3.232'
+}
