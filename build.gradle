@@ -1,0 +1,64 @@
+plugins {
+    id 'base'
+}
+
+allprojects {
+    group = 'com.msp'
+    version = '1.0.0'
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
+
+// modules/* 하위의 모든 단일 기술 모듈에 대해 독립 JAR 패키징 및 Maven 배포 공통 적용
+subprojects { sub ->
+    if (sub.path.startsWith(':modules:')) {
+        apply plugin: 'java-library'
+        apply plugin: 'maven-publish'
+
+        java {
+            sourceCompatibility = JavaVersion.VERSION_21
+            targetCompatibility = JavaVersion.VERSION_21
+            withSourcesJar()
+        }
+
+        tasks.withType(JavaCompile).configureEach {
+            options.encoding = 'UTF-8'
+        }
+
+        jar {
+            archiveBaseName.set(sub.name)
+            archiveClassifier.set('')
+            manifest {
+                attributes(
+                    'Implementation-Title': sub.name,
+                    'Implementation-Version': project.version,
+                    'Built-By': 'multi-skill-plugin'
+                )
+            }
+        }
+
+        dependencies {
+            testImplementation platform('org.junit:junit-bom:5.10.2')
+            testImplementation 'org.junit.jupiter:junit-jupiter'
+            testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+        }
+
+        test {
+            useJUnitPlatform()
+        }
+
+        publishing {
+            publications {
+                mavenJava(MavenPublication) {
+                    from components.java
+                    groupId = project.group.toString()
+                    artifactId = sub.name
+                    version = project.version.toString()
+                }
+            }
+        }
+    }
+}

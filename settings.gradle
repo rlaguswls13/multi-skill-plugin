@@ -1,0 +1,11 @@
+rootProject.name = 'multi-skill-plugin'
+
+// modules/ 하위의 각 단일 기술 폴더를 독립 서브모듈(:modules:<skill-name>)로 자동 등록
+def modulesDir = new File(rootDir, 'modules')
+if (modulesDir.exists() && modulesDir.isDirectory()) {
+    modulesDir.eachDir { dir ->
+        if (new File(dir, 'build.gradle').exists()) {
+            include ":modules:${dir.name}"
+        }
+    }
+}
