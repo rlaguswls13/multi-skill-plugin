@@ -1,0 +1,5 @@
+description = 'Asynchronous webhook dispatcher with HMAC-SHA256 signature, retry policy, and dead-letter queue'
+
+dependencies {
+    // 런타임 외부 의존성 Zero (순수 Java 21 표준 라이브러리)
+}

@@ -1,0 +1,5 @@
+description = 'Lightweight, zero-dependency fluent HTTP client built on Java 21 java.net.http'
+
+dependencies {
+    // 런타임 외부 의존성 Zero (순수 Java 21 표준 라이브러리)
+}
