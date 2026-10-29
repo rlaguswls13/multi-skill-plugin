@@ -1,0 +1,5 @@
+description = 'Zero-dependency recursive file and directory watcher with event debouncing based on Java NIO WatchService'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

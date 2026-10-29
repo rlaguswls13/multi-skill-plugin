@@ -1,0 +1,5 @@
+description = 'Thread-safe key-based locking library with automatic garbage collection of unused locks for Java 21'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

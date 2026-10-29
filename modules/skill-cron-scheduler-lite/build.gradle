@@ -1,0 +1,5 @@
+description = 'Zero-dependency lightweight cron expression parser and in-memory cron scheduler'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

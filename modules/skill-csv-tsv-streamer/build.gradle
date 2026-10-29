@@ -1,0 +1,5 @@
+description = 'Zero-dependency streaming CSV and TSV reader and writer preventing Out-Of-Memory errors'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

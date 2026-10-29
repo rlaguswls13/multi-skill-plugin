@@ -1,0 +1,5 @@
+description = 'Zero-dependency lightweight template engine with variable interpolation, loops, and conditions'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

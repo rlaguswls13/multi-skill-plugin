@@ -1,0 +1,5 @@
+description = 'Resilience library providing configurable RetryPolicy and sliding-window CircuitBreaker for Java 21'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

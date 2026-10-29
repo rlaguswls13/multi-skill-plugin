@@ -1,0 +1,5 @@
+description = 'High-performance, zero-dependency token bucket and sliding window rate limiters for Java 21'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}
