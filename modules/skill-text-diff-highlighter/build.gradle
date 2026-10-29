@@ -1,0 +1,5 @@
+description = 'Line and word-level LCS text diff engine with ANSI console and HTML formatting'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

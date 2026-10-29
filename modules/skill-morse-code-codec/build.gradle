@@ -1,0 +1,5 @@
+description = 'Bidirectional Morse code encoder and decoder for Latin alphabet, numbers, and Korean Hangul'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

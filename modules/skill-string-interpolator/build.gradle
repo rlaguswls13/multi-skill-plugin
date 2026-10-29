@@ -1,0 +1,5 @@
+description = 'Lightweight ${var} and {0} string template interpolator with escaping and nested map property support'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

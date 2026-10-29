@@ -1,0 +1,5 @@
+description = 'Numeric currency and count converter to Korean spoken words and formal receipt typography'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
