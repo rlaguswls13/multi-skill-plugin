@@ -1,0 +1,5 @@
+description = 'Korean resident registration and foreigner registration number checksum and metadata extractor'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

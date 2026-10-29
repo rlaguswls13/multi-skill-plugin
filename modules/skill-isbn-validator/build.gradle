@@ -1,0 +1,5 @@
+description = 'Book ISBN-10 and ISBN-13 checksum calculator, validator, and conversion utility'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

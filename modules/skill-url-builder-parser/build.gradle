@@ -1,0 +1,5 @@
+description = 'Fluent URL builder, path combiner, query parameter encoder/decoder, and normalizer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
