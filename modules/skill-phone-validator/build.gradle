@@ -1,0 +1,5 @@
+description = 'Phone number format validation, country code detection, and E.164 normalization'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

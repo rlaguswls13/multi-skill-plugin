@@ -1,0 +1,5 @@
+description = 'Multilingual SEO-friendly URL slug generator with transliteration and separator normalization'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

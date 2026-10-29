@@ -1,0 +1,5 @@
+description = 'Safe string to primitive, wrapper, enum, date, list converter with fallback defaults'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Fluent parameter and DTO validator (email, URL, IPv4/IPv6, regex, range, notBlank) with zero dependencies'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

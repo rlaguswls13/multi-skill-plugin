@@ -1,0 +1,5 @@
+description = 'Korean postposition (Josa) picker based on final consonant (jongseong) detection'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

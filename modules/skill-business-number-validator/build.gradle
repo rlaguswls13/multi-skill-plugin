@@ -1,0 +1,5 @@
+description = 'Korean business registration (10-digit) and corporate registration (13-digit) number checksum validator'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
