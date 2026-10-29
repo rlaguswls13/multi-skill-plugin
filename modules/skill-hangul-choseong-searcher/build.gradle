@@ -1,0 +1,5 @@
+description = 'Korean Hangul jamo decomposition (Choseong, Jungseong, Jongseong) and initial consonant search engine'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Bidirectional string case converter (camelCase, snake_case, kebab_case, PascalCase, CONSTANT_CASE)'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
