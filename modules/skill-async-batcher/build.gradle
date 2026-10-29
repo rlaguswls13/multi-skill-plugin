@@ -1,0 +1,5 @@
+description = 'Micro-batching buffer grouping items by batch size or max wait duration'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

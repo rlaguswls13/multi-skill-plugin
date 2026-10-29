@@ -1,0 +1,5 @@
+description = 'Windows and Linux INI configuration file section and key-value parser'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Financial and banking fixed-length message packer and unpacker with byte-padding'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

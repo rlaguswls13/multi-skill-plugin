@@ -1,0 +1,5 @@
+description = 'Duplicate in-flight execution suppressor (SingleFlight) preventing Cache Stampede'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

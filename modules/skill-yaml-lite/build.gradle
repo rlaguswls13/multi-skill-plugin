@@ -1,0 +1,5 @@
+description = 'Lightweight pure Java YAML parser and serializer with zero dependencies'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Java 21 Virtual Thread runner with concurrency rate-limiting semaphore'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

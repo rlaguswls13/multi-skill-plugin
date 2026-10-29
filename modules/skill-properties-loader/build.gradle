@@ -1,0 +1,5 @@
+description = 'Hierarchical .env and .properties merger with system environment variable expansion'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

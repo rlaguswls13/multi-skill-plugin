@@ -1,0 +1,5 @@
+description = 'Pure Java lightweight XML parser and builder without DOM/SAX overhead'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

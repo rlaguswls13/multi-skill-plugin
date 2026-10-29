@@ -1,0 +1,5 @@
+description = 'High-frequency action debouncer and throttler with trailing/leading execution modes'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

@@ -1,0 +1,5 @@
+description = 'Pure Java JSON pretty-printer with configurable indent and whitespace minifier'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

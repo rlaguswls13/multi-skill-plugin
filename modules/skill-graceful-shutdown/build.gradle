@@ -1,0 +1,5 @@
+description = 'JVM shutdown hook coordinator with ordered component cleanup and timeout safety'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

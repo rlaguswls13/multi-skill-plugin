@@ -1,0 +1,5 @@
+description = 'ThreadPoolExecutor queue saturation, active worker monitoring, and rejection alerts'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

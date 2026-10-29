@@ -1,0 +1,5 @@
+description = 'Fluent binary packet builder and parser with Big/Little Endian and VarInt support'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
