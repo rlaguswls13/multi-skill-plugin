@@ -1,0 +1,5 @@
+description = 'Zero-dependency functional Result<T, E> and exception-safe Try<T> standalone library'
+
+dependencies {
+    // 런타임 외부 의존성 Zero (순수 Java 21 표준 라이브러리)
+}
