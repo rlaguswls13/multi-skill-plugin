@@ -1,0 +1,5 @@
+description = 'Time-based file and directory purge utility with glob matching and dry-run'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

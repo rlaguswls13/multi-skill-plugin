@@ -1,0 +1,5 @@
+description = 'AutoCloseable temporary file and directory lifecycle manager with auto-cleanup'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

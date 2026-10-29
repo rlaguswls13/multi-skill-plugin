@@ -1,0 +1,5 @@
+description = 'Sliding time-window counter with sub-bucket granularity and spike detection'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

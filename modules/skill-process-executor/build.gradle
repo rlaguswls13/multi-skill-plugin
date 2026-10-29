@@ -1,0 +1,5 @@
+description = 'OS command and external process executor with timeout, exit code, and stream capture'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

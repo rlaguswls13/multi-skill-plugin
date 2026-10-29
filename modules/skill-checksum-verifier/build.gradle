@@ -1,0 +1,5 @@
+description = 'Streaming file SHA-256, MD5, and CRC32 checksum generator and integrity verifier'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

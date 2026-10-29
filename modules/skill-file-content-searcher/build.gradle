@@ -1,0 +1,5 @@
+description = 'Recursive multi-file text and regex grep utility with line numbers and match context'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

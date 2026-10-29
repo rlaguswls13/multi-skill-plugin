@@ -1,0 +1,5 @@
+description = 'Large file chunk splitter (by byte size or line count) and exact byte-level merger'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

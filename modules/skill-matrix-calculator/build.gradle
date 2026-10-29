@@ -1,0 +1,5 @@
+description = '2D matrix linear algebra calculator (addition, multiplication, transpose, inversion)'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

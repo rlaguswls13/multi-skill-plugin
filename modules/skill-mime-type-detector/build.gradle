@@ -1,0 +1,5 @@
+description = 'Fast MIME type detector based on file extension and binary magic numbers'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

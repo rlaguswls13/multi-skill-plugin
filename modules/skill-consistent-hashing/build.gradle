@@ -1,0 +1,5 @@
+description = 'Consistent hash ring with virtual nodes for minimal rebalancing during cluster resizing'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

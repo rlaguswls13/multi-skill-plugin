@@ -1,0 +1,5 @@
+description = 'Pure Java directory and file Zip compressor and extractor with path-traversal guard'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
