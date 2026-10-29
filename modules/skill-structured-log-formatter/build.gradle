@@ -1,0 +1,5 @@
+description = 'Pure Java 21 structured JSON log formatter with fast escaping, context map, and stack trace serialization'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

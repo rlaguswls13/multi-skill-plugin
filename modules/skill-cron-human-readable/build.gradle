@@ -1,0 +1,5 @@
+description = 'Human-readable natural language cron expression translator supporting Korean and English'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

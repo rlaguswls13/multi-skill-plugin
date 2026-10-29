@@ -1,0 +1,5 @@
+description = 'Thread-safe hierarchical call tree latency profiler with percentage breakdown and ASCII tree pretty printer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

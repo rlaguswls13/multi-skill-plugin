@@ -1,0 +1,5 @@
+description = 'Thread-safe composite health checker with built-in disk, memory, ping, and supplier checks'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'JVM HotSpot diagnostic live/all heap memory dumper with timestamped hprof management'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
