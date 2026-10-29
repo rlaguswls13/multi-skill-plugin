@@ -1,0 +1,5 @@
+description = 'Real-time collection and map size leak detector with monotonic growth analysis and velocity alerts'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
