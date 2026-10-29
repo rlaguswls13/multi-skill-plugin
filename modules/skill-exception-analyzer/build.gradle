@@ -1,0 +1,5 @@
+description = 'Zero-dependency exception analyzer, root cause extractor, cyclic-cause safe chain walker, stack trace condenser, and error categorizer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

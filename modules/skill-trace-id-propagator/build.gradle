@@ -1,0 +1,5 @@
+description = 'High-performance, zero-dependency distributed trace context propagation (W3C TraceContext & B3) with ThreadLocal scope management'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

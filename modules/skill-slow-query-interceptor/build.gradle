@@ -1,0 +1,5 @@
+description = 'Zero-dependency slow query interceptor, SQL normalizer, performance metrics aggregator, and threshold alert manager'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Korean national and substitute holiday calculator (solar and lunar accurate for 2020-2035)'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

@@ -1,0 +1,5 @@
+description = 'Human-friendly relative time formatter supporting Korean and English with configurable thresholds and fallback'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}
