@@ -1,0 +1,5 @@
+description = 'Virtual thread parallel task distributor (Fan-out) and aggregator (Fan-in) orchestrator'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

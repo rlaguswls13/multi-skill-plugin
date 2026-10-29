@@ -1,0 +1,5 @@
+description = 'Fluent promise abstraction wrapping CompletableFuture with allOf, anyOf, race, and timeout'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

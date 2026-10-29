@@ -1,0 +1,5 @@
+description = 'Priority-based (P0-P3) in-memory async worker queue with fair scheduling'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

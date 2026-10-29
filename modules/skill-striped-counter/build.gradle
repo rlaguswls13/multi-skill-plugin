@@ -1,0 +1,5 @@
+description = 'Ultra-high concurrency striped counter with sliding-window rate tracking'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

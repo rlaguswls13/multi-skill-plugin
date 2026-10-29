@@ -1,0 +1,5 @@
+description = 'SQL query formatter with keyword capitalization and hierarchical indentation'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Safe HTML tag stripper and HTML entity unescaper for full-text search indexing'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

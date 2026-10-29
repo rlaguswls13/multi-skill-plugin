@@ -1,0 +1,5 @@
+description = 'High-performance zero-allocation Base64, Base64URL, Hex, and Base32 codec'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
