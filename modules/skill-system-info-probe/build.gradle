@@ -1,0 +1,5 @@
+description = 'JVM memory, CPU cores, disk storage, and OS thread diagnostic probe'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Weighted Round-Robin and Smooth Weighted Round-Robin load balancer'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

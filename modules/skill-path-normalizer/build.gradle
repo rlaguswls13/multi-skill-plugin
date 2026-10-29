@@ -1,0 +1,5 @@
+description = 'Cross-platform path normalizer and Path Traversal attack prevention guard'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

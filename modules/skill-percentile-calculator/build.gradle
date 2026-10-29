@@ -1,0 +1,5 @@
+description = 'Streaming and batch percentile (P50, P90, P95, P99), IQR, and histogram calculator'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

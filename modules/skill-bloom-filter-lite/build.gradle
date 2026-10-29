@@ -1,0 +1,5 @@
+description = 'BitSet-based memory-efficient Bloom filter for fast negative set membership tests'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

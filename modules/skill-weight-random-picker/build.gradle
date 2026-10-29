@@ -1,0 +1,5 @@
+description = 'Weighted random item picker for A/B testing, lotteries, and drop rates'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

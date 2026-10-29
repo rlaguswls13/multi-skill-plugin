@@ -1,0 +1,5 @@
+description = 'Haversine great-circle distance (km, meters) and geographical bounding box calculator'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

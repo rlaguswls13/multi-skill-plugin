@@ -1,0 +1,5 @@
+description = 'HyperLogLog cardinality estimator for memory-efficient unique visitor counting'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

@@ -1,0 +1,5 @@
+description = 'Data size and time duration standard unit converter with human-readable formatting'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}
