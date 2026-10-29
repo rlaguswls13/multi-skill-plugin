@@ -1,0 +1,5 @@
+description = 'String similarity algorithms (Levenshtein Distance, Jaro-Winkler, Cosine) and typo auto-suggestion'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

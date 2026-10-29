@@ -1,0 +1,5 @@
+description = 'Safe text truncation by character and byte count (UTF-8, EUC-KR) preserving words with ellipsis'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

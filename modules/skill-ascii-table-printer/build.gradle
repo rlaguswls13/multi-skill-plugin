@@ -1,0 +1,5 @@
+description = 'CLI, log, and Markdown ASCII table formatter with column alignment, padding, and border styles'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

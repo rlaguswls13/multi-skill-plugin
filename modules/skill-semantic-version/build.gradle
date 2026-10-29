@@ -1,0 +1,5 @@
+description = 'SemVer 2.0.0 semantic version parser, comparator, and range evaluator (^, ~, >=, <=)'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
