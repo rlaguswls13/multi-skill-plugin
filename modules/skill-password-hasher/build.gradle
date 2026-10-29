@@ -1,0 +1,5 @@
+description = 'Zero-dependency password hashing (PBKDF2-SHA256, 65,536 iterations, salt), verification, and strength validator'
+
+dependencies {
+    // Pure Java 21 standard javax.crypto & java.security
+}

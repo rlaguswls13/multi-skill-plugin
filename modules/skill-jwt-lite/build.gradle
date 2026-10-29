@@ -1,0 +1,5 @@
+description = 'Pure Java 21 zero-dependency JWT (JSON Web Token) library supporting HS256 and RS256'
+
+dependencies {
+    // Pure Java 21 standard library (No JJWT, no Nimbus, no Jackson runtime dependencies)
+}

@@ -1,0 +1,5 @@
+description = 'Zero-dependency recursive object/map diff detector, audit logger, and patch/rollback engine'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

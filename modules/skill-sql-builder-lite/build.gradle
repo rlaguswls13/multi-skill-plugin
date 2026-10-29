@@ -1,0 +1,5 @@
+description = 'Zero-dependency fluent type-safe SQL query builder and JDBC PreparedStatement binder'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

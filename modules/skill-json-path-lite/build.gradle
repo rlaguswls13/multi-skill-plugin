@@ -1,0 +1,5 @@
+description = 'Zero-dependency JSONPath parser and mini JSON tokenizer for deep navigation and type extraction'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

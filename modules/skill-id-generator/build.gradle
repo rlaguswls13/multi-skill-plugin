@@ -1,0 +1,5 @@
+description = 'High-performance distributed unique ID generators: Snowflake, TSID (Crockford Base32), NanoID, and UUIDv7'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

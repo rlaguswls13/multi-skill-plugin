@@ -1,0 +1,5 @@
+description = 'Zero-dependency PII masking, XSS HTML sanitization, and Log injection prevention library'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

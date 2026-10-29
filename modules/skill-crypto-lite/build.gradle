@@ -1,0 +1,5 @@
+description = 'Zero-dependency cryptographic utility: AES-256-GCM, PBKDF2, HMAC-SHA256, and SHA-256/512'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21 standard javax.crypto & java.security)
+}
