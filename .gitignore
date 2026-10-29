@@ -1,0 +1,29 @@
+# Gradle & Build Artifacts
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+target/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Env & Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Agent & Local Wiki Junction (Central vault is at D:\obsidian-storage\project-rag\multi-skill-plugin)
+.agent/
+.agents/
+.claude/
+.omc/
+wiki
+wiki/
