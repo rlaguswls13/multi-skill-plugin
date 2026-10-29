@@ -1,0 +1,5 @@
+description = 'Pure Java bidirectional Solar to Lunar (Gregorian to Lunisolar) astronomical converter'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

@@ -1,0 +1,5 @@
+description = 'Fluent, step-aware, policy-based LocalDate and Instant range iterator and stream provider'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

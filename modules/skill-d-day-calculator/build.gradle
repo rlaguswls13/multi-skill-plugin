@@ -1,0 +1,5 @@
+description = 'D-Day, Korean legal/year/counting age, and anniversary milestone calculator'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}
