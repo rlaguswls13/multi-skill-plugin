@@ -1,0 +1,5 @@
+description = 'Configurable fiscal year, quarter, half, and week calendar utility'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

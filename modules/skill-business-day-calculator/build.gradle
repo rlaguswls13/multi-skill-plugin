@@ -1,0 +1,5 @@
+description = 'Business day calculation library with configurable weekends, custom holidays, and date stepping'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

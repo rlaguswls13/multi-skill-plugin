@@ -1,0 +1,5 @@
+description = 'Multi-format resilient ISO-8601, RFC-1123, epoch, and standard date-time string parser'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

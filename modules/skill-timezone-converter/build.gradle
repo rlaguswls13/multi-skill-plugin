@@ -1,0 +1,5 @@
+description = 'Timezone conversion and offset difference calculator with standard alias resolution'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

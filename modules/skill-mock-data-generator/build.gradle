@@ -1,0 +1,5 @@
+description = 'Zero-dependency realistic mock data generator for Korean/English names, addresses, phones, emails, prices, dates, and deterministic seeded tests'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

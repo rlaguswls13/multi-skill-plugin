@@ -1,0 +1,5 @@
+description = 'Lightweight, zero-dependency audit logging library with sensitive data masking, diff tracking, and JSON / Key-Value formatting'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
