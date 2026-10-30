@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    name: Build & Test 102 Modules
+    name: Build & Test All Modules & Starters
     runs-on: ubuntu-latest
 
     steps:
@@ -29,17 +29,18 @@ jobs:
     - name: Grant Execute Permission for Gradlew
       run: chmod +x gradlew
 
-    - name: Run JUnit 5 Tests across all 102 Modules
+    - name: Run JUnit 5 Tests across all Modules & Starters
       run: ./gradlew test --no-daemon
 
-    - name: Build Standalone JARs for all 102 Modules
+    - name: Build Standalone JARs for all Modules & Starters
       run: ./gradlew jar --no-daemon
 
-    - name: Verify 102 Standalone JARs Count
+    - name: Verify Standalone JARs Count
       run: |
+        MODULE_COUNT=$(find modules -mindepth 1 -maxdepth 1 -type d | wc -l)
         JAR_COUNT=$(find modules -path "*/build/libs/*.jar" ! -name "*-sources.jar" | wc -l)
-        echo "Found $JAR_COUNT Standalone JARs."
-        if [ "$JAR_COUNT" -ne 102 ]; then
-          echo "Expected 102 JARs but found $JAR_COUNT!"
+        echo "Found $MODULE_COUNT modules and $JAR_COUNT standalone JARs."
+        if [ "$JAR_COUNT" -lt "$MODULE_COUNT" ]; then
+          echo "Expected at least $MODULE_COUNT JARs but found $JAR_COUNT!"
           exit 1
         fi
