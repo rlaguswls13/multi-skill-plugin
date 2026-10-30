@@ -1,0 +1,5 @@
+plugins {
+    id 'java-library'
+}
+
+description = 'HMAC-SHA256 Signed & Expiring Session Cookie Serializer'

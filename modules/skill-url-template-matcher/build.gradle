@@ -1,0 +1,5 @@
+plugins {
+    id 'java-library'
+}
+
+description = 'URI Template Matcher & Expander (RFC 6570 / Spring style)'
