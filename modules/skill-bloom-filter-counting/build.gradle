@@ -1,0 +1,5 @@
+description = 'Counting Bloom Filter supporting addition, deletion, and approximate frequency estimation'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

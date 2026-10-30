@@ -1,0 +1,5 @@
+description = 'Zero-dependency streaming CSV to SQLite DDL and batch INSERT statements converter'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

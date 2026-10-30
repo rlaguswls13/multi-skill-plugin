@@ -1,0 +1,5 @@
+description = 'Ultra-lightweight schema validator for Map/JSON structures without external dependencies'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

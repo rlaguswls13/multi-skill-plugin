@@ -1,0 +1,5 @@
+description = 'Pure Java 21 TF-based keyword extractor with Korean and English stopword filtering'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}
