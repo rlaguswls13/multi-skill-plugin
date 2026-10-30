@@ -1,0 +1,5 @@
+description = 'File-system based LRU and TTL disk cache manager without external dependencies'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}
