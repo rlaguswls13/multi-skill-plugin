@@ -1,0 +1,12 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api project(':modules:skill-rate-limiter')
+    api project(':modules:skill-retry-breaker')
+    api project(':modules:skill-concurrency-locker')
+    api project(':modules:skill-memory-cache-lite')
+    api project(':modules:skill-single-flight')
+    api project(':modules:skill-virtual-thread-runner')
+}

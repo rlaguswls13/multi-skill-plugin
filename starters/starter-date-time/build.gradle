@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api project(':modules:skill-korean-holiday-calculator')
+    api project(':modules:skill-business-day-calculator')
+    api project(':modules:skill-time-ago-formatter')
+    api project(':modules:skill-iso8601-time-parser')
+    api project(':modules:skill-timezone-converter')
+    api project(':modules:skill-cron-human-readable')
+    api project(':modules:skill-d-day-calculator')
+    api project(':modules:skill-solar-lunar-converter')
+}

@@ -1,0 +1,10 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api project(':modules:skill-crypto-lite')
+    api project(':modules:skill-password-hasher')
+    api project(':modules:skill-jwt-lite')
+    api project(':modules:skill-text-sanitizer')
+}

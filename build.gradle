@@ -12,9 +12,9 @@ allprojects {
     }
 }
 
-// modules/* 하위의 모든 단일 기술 모듈에 대해 독립 JAR 패키징 및 Maven 배포 공통 적용
+// modules/* 및 starters/* 하위의 모든 모듈에 대해 독립 JAR 패키징 및 Maven 배포 공통 적용
 subprojects { sub ->
-    if (sub.path.startsWith(':modules:')) {
+    if (sub.path.startsWith(':modules:') || sub.path.startsWith(':starters:')) {
         apply plugin: 'java-library'
         apply plugin: 'maven-publish'
 
