@@ -9,3 +9,13 @@ if (modulesDir.exists() && modulesDir.isDirectory()) {
         }
     }
 }
+
+// starters/ 하위의 도메인 번들 애그리게이터 모듈 자동 등록
+def startersDir = new File(rootDir, 'starters')
+if (startersDir.exists() && startersDir.isDirectory()) {
+    startersDir.eachDir { dir ->
+        if (new File(dir, 'build.gradle').exists()) {
+            include ":starters:${dir.name}"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api project(':modules:skill-trace-id-propagator')
+    api project(':modules:skill-audit-logger')
+    api project(':modules:skill-slow-query-interceptor')
+    api project(':modules:skill-exception-analyzer')
+    api project(':modules:skill-health-checker')
+    api project(':modules:skill-structured-log-formatter')
+    api project(':modules:skill-api-performance-profiler')
+    api project(':modules:skill-memory-leak-detector')
+}
