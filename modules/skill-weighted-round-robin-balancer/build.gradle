@@ -1,0 +1,5 @@
+description = 'Nginx and LVS standard Smooth Weighted Round-Robin (SWRR) load balancer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

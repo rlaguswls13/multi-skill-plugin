@@ -1,0 +1,5 @@
+description = 'IPv6 normalizer, 39-character full expander, RFC 5952 compressor, and IPv4-mapped detector'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Unicode Case Folding standard multi-lingual case-insensitive comparator and normalizer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Sliding time window circular bucket based failure rate threshold circuit breaker'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
