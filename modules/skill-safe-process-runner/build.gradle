@@ -1,0 +1,5 @@
+description = 'Pure Java ProcessBuilder safe runner preventing pipe deadlock, OOM, and guaranteeing timeout'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

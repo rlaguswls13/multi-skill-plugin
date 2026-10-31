@@ -1,0 +1,5 @@
+description = 'Sliding time window event deduplicator with TTL expiration and bounded capacity'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
