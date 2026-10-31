@@ -1,0 +1,5 @@
+description = 'RFC 8785 JSON Canonicalization Scheme (JCS) canonicalizer and SHA-256 hasher'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
