@@ -1,0 +1,5 @@
+description = 'Damerau-Levenshtein edit distance and similarity matcher with adjacent transposition support'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
