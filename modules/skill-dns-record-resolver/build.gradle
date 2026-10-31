@@ -1,0 +1,5 @@
+description = 'Zero-dependency DNS record resolver using pure Java JNDI DNS SPI with fallback'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
