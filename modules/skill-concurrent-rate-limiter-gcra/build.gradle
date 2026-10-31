@@ -1,0 +1,5 @@
+description = 'High-precision lock-free GCRA (Generic Cell Rate Algorithm) rate limiter'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'RFC 4648 Base32, Base32Hex and Crockford Base32 codec'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
