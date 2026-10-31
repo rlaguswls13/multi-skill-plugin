@@ -1,0 +1,5 @@
+description = '5-field and 6-field Cron expression validator, field parser, and human-readable descriptor'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

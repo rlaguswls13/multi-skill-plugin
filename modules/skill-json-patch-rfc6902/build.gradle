@@ -1,0 +1,5 @@
+plugins {
+    id 'java-library'
+}
+
+description = 'RFC 6902 JSON Patch & RFC 6901 JSON Pointer Implementation'

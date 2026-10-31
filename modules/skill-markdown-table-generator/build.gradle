@@ -1,0 +1,5 @@
+description = 'GitHub Flavored Markdown Table Generator with alignment, padding, and Map/Object conversion'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

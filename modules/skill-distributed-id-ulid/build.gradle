@@ -1,0 +1,5 @@
+plugins {
+    id 'java-library'
+}
+
+description = 'Universally Unique Lexicographically Sortable Identifier (ULID)'

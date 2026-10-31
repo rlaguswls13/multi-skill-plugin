@@ -1,0 +1,5 @@
+description = 'High-performance CIDR and IP reputation bitmask filtering library'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

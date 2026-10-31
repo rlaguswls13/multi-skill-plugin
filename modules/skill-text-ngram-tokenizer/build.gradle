@@ -1,0 +1,5 @@
+description = 'N-gram character/word tokenizer with Jaccard and Cosine similarity metrics'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

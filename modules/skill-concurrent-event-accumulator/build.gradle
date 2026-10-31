@@ -1,0 +1,5 @@
+description = 'Thread-safe batch event accumulator with size and time-window flush triggers'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
