@@ -1,0 +1,5 @@
+description = 'Zero-dependency Leaky Bucket rate limiter and traffic smoother with precision nanosecond leaking in pure Java 21'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

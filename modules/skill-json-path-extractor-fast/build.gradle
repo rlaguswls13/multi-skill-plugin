@@ -1,0 +1,5 @@
+description = 'High-performance lightweight zero-dependency JSON path extractor with array indexing and slice extraction'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

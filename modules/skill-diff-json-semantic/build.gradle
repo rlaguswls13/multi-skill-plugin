@@ -1,0 +1,5 @@
+description = 'Zero-dependency semantic JSON diff engine comparing objects, arrays, and fields with human-readable change reports in pure Java 21'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

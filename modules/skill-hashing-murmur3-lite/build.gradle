@@ -1,0 +1,5 @@
+description = 'High-performance 32-bit and 128-bit MurmurHash3 non-cryptographic hash algorithm'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

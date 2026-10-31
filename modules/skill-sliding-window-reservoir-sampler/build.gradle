@@ -1,0 +1,5 @@
+description = 'Zero-dependency streaming Reservoir Sampler (Algorithm R) for uniform random sampling from unbounded streams'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

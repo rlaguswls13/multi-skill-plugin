@@ -1,0 +1,5 @@
+description = 'High-throughput GZIP and Deflate streaming compression and decompression pipeline'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
