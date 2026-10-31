@@ -1,0 +1,5 @@
+description = 'Pure Java streaming .tar.gz and .tgz archive extractor and packager with Zip Slip defense'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
