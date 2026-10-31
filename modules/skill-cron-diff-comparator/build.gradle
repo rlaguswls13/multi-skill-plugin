@@ -1,0 +1,5 @@
+description = 'Cron expression difference comparator and overlap ratio analyzer for 5-field standard cron'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

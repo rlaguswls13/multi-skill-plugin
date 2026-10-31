@@ -1,0 +1,5 @@
+description = 'Zero-dependency JWT Header and Payload claims extractor with embedded JSON parser'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

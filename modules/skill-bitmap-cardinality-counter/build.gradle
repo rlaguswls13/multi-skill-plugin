@@ -1,0 +1,5 @@
+description = 'High-performance 64-bit Long array bitmap with atomic cardinality counting for DAU/MAU analytics'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
