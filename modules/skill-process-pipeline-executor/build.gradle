@@ -1,0 +1,5 @@
+description = 'Deadlock-free multi-process asynchronous pipeline runner connecting stdout -> stdin'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

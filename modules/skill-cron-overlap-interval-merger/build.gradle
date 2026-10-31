@@ -1,0 +1,1 @@
+description = 'Normalize cron execution intervals and merge overlapping and contiguous execution windows'

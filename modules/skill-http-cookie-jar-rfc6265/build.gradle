@@ -1,0 +1,1 @@
+description = 'RFC 6265 compliant in-memory HTTP CookieJar with SameSite, Domain, and Path matching'

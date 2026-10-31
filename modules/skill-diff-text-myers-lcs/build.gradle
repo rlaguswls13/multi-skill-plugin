@@ -1,0 +1,5 @@
+description = 'Eugene Myers O(ND) Shortest Edit Script (SES) and LCS diff algorithm'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

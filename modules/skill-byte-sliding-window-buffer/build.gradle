@@ -1,0 +1,1 @@
+description = 'Sliding window byte buffer maintaining latest N bytes with real-time sequence and delimiter matching'

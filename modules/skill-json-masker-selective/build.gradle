@@ -1,0 +1,5 @@
+description = 'Selective JSON field masker supporting JSONPath patterns and custom masking strategies'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
