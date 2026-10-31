@@ -1,0 +1,5 @@
+description = 'Cron expression trigger calculator and ASCII timeline/heatmap schedule visualizer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

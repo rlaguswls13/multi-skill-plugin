@@ -1,0 +1,5 @@
+description = 'High performance IPv4 CIDR subnet calculator with bitwise range and overlap detection'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

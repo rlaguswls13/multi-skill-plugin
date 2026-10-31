@@ -1,0 +1,5 @@
+description = 'Git-style three-way merge algorithm engine with conflict detection and resolution markers'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

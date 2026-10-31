@@ -1,0 +1,5 @@
+plugins {
+    id 'java-library'
+}
+
+description = 'CSV and Text Encoding Sniffer and Heuristic Detector'
