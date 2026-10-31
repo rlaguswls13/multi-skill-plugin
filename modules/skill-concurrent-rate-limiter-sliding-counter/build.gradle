@@ -1,0 +1,1 @@
+description = 'High-throughput low-memory sliding window counter rate limiter splitting window into M sub-slots'

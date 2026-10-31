@@ -1,0 +1,5 @@
+description = 'Memory-efficient streaming token splitter for massive NDJSON and JSON arrays'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

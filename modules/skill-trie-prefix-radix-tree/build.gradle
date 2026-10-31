@@ -1,0 +1,5 @@
+description = 'Memory-compressed Radix and Patricia Trie for prefix matching and routing'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
