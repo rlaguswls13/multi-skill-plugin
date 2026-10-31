@@ -1,0 +1,5 @@
+description = 'JWT Key Rotator with grace period management and key validation swap'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

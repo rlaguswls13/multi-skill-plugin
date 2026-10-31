@@ -1,0 +1,5 @@
+description = 'URL canonicalizer and tracking parameter stripper'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

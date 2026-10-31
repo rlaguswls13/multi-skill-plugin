@@ -1,0 +1,5 @@
+description = 'Zero-dependency phonetic matching codec providing Soundex and Metaphone algorithms in pure Java 21'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

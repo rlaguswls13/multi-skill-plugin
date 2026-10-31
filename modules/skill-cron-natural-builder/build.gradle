@@ -1,0 +1,5 @@
+description = 'Fluent type-safe 5-field and 6-field Cron expression builder'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
