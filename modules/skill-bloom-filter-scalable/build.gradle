@@ -1,0 +1,5 @@
+description = 'Scalable Bloom Filter with dynamic layer expansion ensuring bounded false positive rate'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
