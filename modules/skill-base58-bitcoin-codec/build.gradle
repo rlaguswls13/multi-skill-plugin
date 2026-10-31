@@ -1,0 +1,5 @@
+description = 'Bitcoin and IPFS standard Base58 and Base58Check codec'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

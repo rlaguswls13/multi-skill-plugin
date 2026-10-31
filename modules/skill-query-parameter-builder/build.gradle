@@ -1,0 +1,5 @@
+description = 'Bidirectional URL query string builder and parser supporting multi-value lists and RFC 3986 encoding'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

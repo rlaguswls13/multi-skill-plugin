@@ -1,0 +1,5 @@
+description = 'Consistent Hash Ring v2 with virtual nodes and weight-based distribution for sharding'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

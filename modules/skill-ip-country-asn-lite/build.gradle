@@ -1,0 +1,5 @@
+description = 'Pure Java in-memory IPv4 Range and CIDR based Country and ASN fast lookup probe'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
