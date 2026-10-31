@@ -1,0 +1,1 @@
+description = 'Memcached and Nginx standard Ketama MD5 consistent hash ring with 160 virtual points per node'

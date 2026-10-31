@@ -1,0 +1,5 @@
+description = 'Standard Base62 bidirectional codec for URL Shorteners, nano IDs, and BigInteger/UUID conversions'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

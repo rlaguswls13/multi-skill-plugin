@@ -1,0 +1,1 @@
+description = 'N-Gram based Jaccard and Sorensen-Dice fuzzy string similarity matcher and in-memory typo-tolerant search indexer'

@@ -1,0 +1,5 @@
+description = 'RFC 1035 binary wire-format DNS message parser and serializer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

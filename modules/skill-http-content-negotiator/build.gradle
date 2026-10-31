@@ -1,0 +1,5 @@
+description = 'RFC 7231 HTTP Accept header quality factor parser and content negotiator'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
