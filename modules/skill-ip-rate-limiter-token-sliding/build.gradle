@@ -1,0 +1,5 @@
+description = 'Per-IP sliding token bucket rate limiter with automatic idle IP eviction'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

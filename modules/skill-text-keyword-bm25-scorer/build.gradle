@@ -1,0 +1,5 @@
+description = 'Okapi BM25 text relevance and document ranking engine'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
