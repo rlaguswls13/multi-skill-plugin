@@ -1,0 +1,5 @@
+description = 'Priority and TTL-based Concurrency Task Executor for background async workloads'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

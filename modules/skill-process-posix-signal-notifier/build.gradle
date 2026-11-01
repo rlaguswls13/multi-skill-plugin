@@ -1,0 +1,5 @@
+description = 'JVM Graceful Shutdown and POSIX OS Signal Asynchronous Notification Registry'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

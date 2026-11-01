@@ -1,0 +1,5 @@
+description = 'Standard basE91 Binary-to-ASCII bidirectional codec with stream support'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

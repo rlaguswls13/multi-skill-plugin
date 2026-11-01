@@ -1,0 +1,5 @@
+description = 'Pure Java SQL AST Parser and Visitor Engine for schema analysis and security guards'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
