@@ -1,0 +1,5 @@
+description = 'Business Day schedule adjuster for Cron executions rolling over weekends and public/custom holidays'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

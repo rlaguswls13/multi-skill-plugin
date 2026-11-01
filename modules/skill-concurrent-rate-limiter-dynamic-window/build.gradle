@@ -1,0 +1,5 @@
+description = 'Self-adaptive AIMD dynamic window rate limiter using lock-free atomic concurrency'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

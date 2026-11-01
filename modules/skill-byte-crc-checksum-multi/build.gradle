@@ -1,0 +1,5 @@
+description = 'Pure Java multi-standard CRC-16 and CRC-32/CRC-32C bitwise checksum calculator'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Word and whitespace token level text diff engine generating fine-grained changes and inline markup'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
