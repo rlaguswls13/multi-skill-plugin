@@ -1,0 +1,5 @@
+description = 'Low-memory striped-locking and LRU sliding window idempotency event deduplicator for distributed streams'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

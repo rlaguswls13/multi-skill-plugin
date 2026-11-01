@@ -1,0 +1,5 @@
+description = 'RFC 8693 OAuth 2.0 Token Exchange pattern in-memory registry between Opaque Reference Tokens and JWT Claims'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
