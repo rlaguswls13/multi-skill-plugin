@@ -1,0 +1,5 @@
+description = 'W3C CORS and Preflight Request Compliance Evaluator'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

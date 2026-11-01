@@ -1,0 +1,5 @@
+description = 'BGP Route Summarization and CIDR Prefix Aggregator'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
