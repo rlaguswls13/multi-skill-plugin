@@ -1,0 +1,5 @@
+description = 'RFC 7638 JSON Web Key (JWK) SHA-256 Thumbprint calculator'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

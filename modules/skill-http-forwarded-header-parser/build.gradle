@@ -1,0 +1,5 @@
+description = 'RFC 7239 Forwarded and legacy X-Forwarded-* proxy headers parser and normalizer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

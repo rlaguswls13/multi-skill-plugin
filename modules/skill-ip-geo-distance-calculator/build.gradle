@@ -1,0 +1,5 @@
+description = 'Precision Great-Circle distance and initial bearing calculator based on Haversine and Vincenty geodesic algorithms'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

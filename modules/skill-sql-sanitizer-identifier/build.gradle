@@ -1,0 +1,5 @@
+description = 'SQL identifier validator and sanitizer preventing SQL injection in dynamic table and column names'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

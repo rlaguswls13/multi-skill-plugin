@@ -1,0 +1,5 @@
+description = 'Sliding-window Counting Bloom Filter using time-bucketed ring buffers to automatically expire stale elements'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Asynchronous process stream pumper transferring stdout/stderr using Java 21 Virtual Threads'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
