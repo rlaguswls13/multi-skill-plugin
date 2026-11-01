@@ -1,0 +1,5 @@
+description = 'Wireshark and Hexdump style 3-column binary formatter with ANSI color highlighting'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

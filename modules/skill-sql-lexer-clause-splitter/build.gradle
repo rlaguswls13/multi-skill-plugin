@@ -1,0 +1,5 @@
+description = 'Splits complex SQL statements into top-level clauses while respecting parentheses, quotes, and comments'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
