@@ -1,0 +1,5 @@
+description = 'Gracefully and reliably terminates an entire OS process tree using Java ProcessHandle'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Pure Java 21 implementation of Lawrence Philips Double Metaphone phonetic encoding algorithm'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

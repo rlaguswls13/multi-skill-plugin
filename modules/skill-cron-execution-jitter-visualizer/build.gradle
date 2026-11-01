@@ -1,0 +1,5 @@
+description = 'Cron execution jitter dispersion simulator, statistical analyzer, and ASCII visualizer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

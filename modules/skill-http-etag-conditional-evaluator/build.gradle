@@ -1,0 +1,5 @@
+description = 'RFC 7232 HTTP ETag and conditional request evaluation engine'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

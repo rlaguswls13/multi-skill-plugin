@@ -1,0 +1,5 @@
+description = 'X.509 Certificate and Certificate Chain Loader & Parser for JWT and TLS/PKI'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

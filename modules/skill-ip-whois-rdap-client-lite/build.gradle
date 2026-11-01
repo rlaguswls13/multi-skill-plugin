@@ -1,0 +1,5 @@
+description = 'IANA RDAP (RFC 7480/7482/7483) JSON parser and WHOIS query formatter'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

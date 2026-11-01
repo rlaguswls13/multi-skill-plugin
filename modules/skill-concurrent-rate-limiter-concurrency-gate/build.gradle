@@ -1,0 +1,5 @@
+description = 'Concurrency gate regulating maximum concurrent active executions with queued async workflows'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

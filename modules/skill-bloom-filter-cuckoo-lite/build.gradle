@@ -1,0 +1,5 @@
+description = 'High-performance Cuckoo Filter supporting insert, lookup, and deletion'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
