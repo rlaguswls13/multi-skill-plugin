@@ -1,0 +1,5 @@
+description = 'Word frequency and weight-based Top-K recommendation and prefix autocomplete Trie engine'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

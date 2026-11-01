@@ -1,0 +1,5 @@
+description = 'High-speed Longest Prefix Match (LPM) routing table lookup engine for IPv4 and IPv6 CIDR blocks'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

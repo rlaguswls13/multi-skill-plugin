@@ -1,0 +1,5 @@
+description = 'Standard 5-field and 6-field Cron expression describer generating fluent Korean and English sentences'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

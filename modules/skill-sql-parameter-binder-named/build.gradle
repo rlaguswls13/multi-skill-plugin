@@ -1,0 +1,5 @@
+description = 'Lexer-based Named Parameter SQL parser and binder converting named params into JDBC standard SQL'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

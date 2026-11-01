@@ -1,0 +1,5 @@
+description = 'IEC and SI human-readable byte size formatter and parser'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

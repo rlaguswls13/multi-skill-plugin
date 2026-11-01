@@ -1,0 +1,5 @@
+description = 'Pure Java 21 Diff-to-Patch engine generating RFC 6902 JSON Patch operation arrays from two JSON structures'
+
+dependencies {
+    // Zero runtime dependencies (Java 21 standard library)
+}

@@ -1,0 +1,5 @@
+description = 'Partitioned Bloom Filter with cache-locality bit slices and Murmur3 dual-hashing'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
