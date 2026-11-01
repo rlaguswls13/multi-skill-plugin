@@ -1,0 +1,5 @@
+description = 'High-Performance Quotient Filter with Linear Probing and True Element Deletion'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

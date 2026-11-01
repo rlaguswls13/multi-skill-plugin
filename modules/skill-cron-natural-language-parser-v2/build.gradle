@@ -1,0 +1,5 @@
+description = 'Multi-lingual Korean & English Natural Language to Cron Expression V2 Parser'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
