@@ -1,0 +1,1 @@
+description = 'O(N log N) prefix-doubling Suffix Array and O(N) Kasai LCP engine with binary-search pattern matching, distinct substring counting, and longest repeated/common substring queries'

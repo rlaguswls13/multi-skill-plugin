@@ -1,0 +1,1 @@
+description = 'IPv4/IPv6 special-use & bogon classifier with IPv4-mapped IPv6 unwrapping and SSRF defense guard in pure Java 21'

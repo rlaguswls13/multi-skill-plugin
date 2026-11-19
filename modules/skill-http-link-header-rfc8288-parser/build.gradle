@@ -1,0 +1,1 @@
+description = 'RFC 8288 HTTP Link header parser, builder, RFC 8187 title* decoder, and PaginationLinks helper in pure Java 21'
