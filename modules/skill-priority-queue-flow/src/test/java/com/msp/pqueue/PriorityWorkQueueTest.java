@@ -128,14 +128,15 @@ class PriorityWorkQueueTest {
 
         boolean completed = latch.await(5, TimeUnit.SECONDS);
         assertTrue(completed, "All items should be processed by workers");
-        assertEquals(30, processed.size());
-        assertEquals(30, pool.getProcessedCount());
-        assertEquals(0, pool.getFailureCount());
 
         pool.stop();
         boolean terminated = pool.awaitTermination(Duration.ofSeconds(2));
         assertTrue(terminated);
         assertFalse(pool.isRunning());
+
+        assertEquals(30, processed.size());
+        assertEquals(30, pool.getProcessedCount());
+        assertEquals(0, pool.getFailureCount());
     }
 
     @Test
