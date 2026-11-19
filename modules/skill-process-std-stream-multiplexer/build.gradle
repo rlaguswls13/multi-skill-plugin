@@ -1,0 +1,5 @@
+description = 'Multi-Process Standard Stream Multiplexer combining stdout/stderr of multiple child processes using Virtual Threads'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

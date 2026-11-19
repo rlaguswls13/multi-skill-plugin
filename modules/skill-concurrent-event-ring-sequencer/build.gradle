@@ -1,0 +1,5 @@
+description = 'LMAX Disruptor-style Single-Producer/Multi-Consumer Lock-Free Ring Sequencer Event Queue'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

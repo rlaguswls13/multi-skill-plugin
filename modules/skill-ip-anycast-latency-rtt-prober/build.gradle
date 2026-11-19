@@ -1,0 +1,5 @@
+description = 'Multi-Region IP Anycast Latency and RTT Socket Prober for edge routing optimization'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

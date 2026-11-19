@@ -1,0 +1,5 @@
+description = 'Korean Lunar Holiday (설날, 추석) Accurate Solar Conversion and Cron Schedule Adjuster'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

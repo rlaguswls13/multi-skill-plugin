@@ -1,0 +1,5 @@
+description = 'Levenshtein Automaton (Transducer) for Ultra-fast Spell Checking within Edit Distance K in a Dictionary Trie'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

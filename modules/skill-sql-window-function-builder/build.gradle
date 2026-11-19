@@ -1,0 +1,5 @@
+description = 'Type-safe SQL Window Function Builder (ROW_NUMBER, RANK, DENSE_RANK, LEAD, LAG, NTILE) with partition, order, and frame clauses'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
