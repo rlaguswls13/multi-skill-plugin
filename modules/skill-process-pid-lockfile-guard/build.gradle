@@ -1,0 +1,1 @@
+description = 'OS-Level Singleton Process PID Lockfile Guard using FileChannel Lock & ProcessHandle Liveness Detection'

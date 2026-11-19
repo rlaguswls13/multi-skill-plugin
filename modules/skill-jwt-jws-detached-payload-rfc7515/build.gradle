@@ -1,0 +1,1 @@
+description = 'RFC 7515 Appendix F & RFC 7797 (b64=false) JWS Detached Content (header..signature) Signer and Streaming Verifier for webhook/banking APIs'
