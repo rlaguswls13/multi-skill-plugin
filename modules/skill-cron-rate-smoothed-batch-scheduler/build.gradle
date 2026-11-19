@@ -1,0 +1,1 @@
+description = 'Rate-smoothed batch scheduler distributing N items across a time window with balanced slots, deterministic jitter, and key/priority spread in pure Java 21'

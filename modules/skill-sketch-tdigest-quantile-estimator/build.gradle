@@ -1,0 +1,1 @@
+description = 'Merging T-Digest streaming quantile estimator (Dunning K_1 arcsin scale) with merge and binary serialization in pure Java 21'

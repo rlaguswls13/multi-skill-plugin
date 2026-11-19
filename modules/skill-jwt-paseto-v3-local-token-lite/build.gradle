@@ -1,0 +1,1 @@
+description = 'PASETO v3.local authenticated symmetric encryption (PAE, HKDF-SHA384, AES-256-CTR, HMAC-SHA384) in pure Java 21'

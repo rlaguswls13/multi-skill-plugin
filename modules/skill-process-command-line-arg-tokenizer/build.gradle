@@ -1,0 +1,1 @@
+description = 'Cross-platform POSIX and Windows (MSVC CommandLineToArgvW) command-line argument tokenizer and injection-safe shell quoting builder'

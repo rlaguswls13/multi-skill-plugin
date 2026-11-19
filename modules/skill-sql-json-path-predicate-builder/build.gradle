@@ -1,0 +1,1 @@
+description = 'Multi-dialect SQL JSON path extraction and parameterized predicate builder for PostgreSQL, MySQL, and SQLite'

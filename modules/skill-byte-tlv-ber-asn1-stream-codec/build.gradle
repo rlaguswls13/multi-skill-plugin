@@ -1,0 +1,1 @@
+description = 'EMV and ASN.1 BER-TLV streaming encoder/decoder supporting multi-byte tags, definite/indefinite lengths, recursive TLV trees, visitors, and hex dump formatting'
