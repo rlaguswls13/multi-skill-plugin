@@ -63,8 +63,8 @@ class JwtLiteTest {
                 .compact();
 
         String[] parts = token.split("\\.");
-        // Modify last character of signature
-        String tamperedSig = parts[2].substring(0, parts[2].length() - 1) + (parts[2].endsWith("A") ? "B" : "A");
+        // Modify first character of signature (all 6 bits belong to byte 0)
+        String tamperedSig = (parts[2].startsWith("A") ? "B" : "A") + parts[2].substring(1);
         String tamperedToken = parts[0] + "." + parts[1] + "." + tamperedSig;
 
         assertThrows(JwtSignatureException.class, () ->

@@ -59,8 +59,8 @@ class Pbkdf2PasswordHasherTest {
         String validHash = hasher.hash(password);
 
         String[] parts = validHash.split("\\$");
-        // Tamper with digest
-        String tamperedDigest = parts[4].substring(0, parts[4].length() - 1) + (parts[4].endsWith("A") ? "B" : "A");
+        // Tamper with first character of digest (all 6 bits belong to byte 0)
+        String tamperedDigest = (parts[4].startsWith("A") ? "B" : "A") + parts[4].substring(1);
         String tamperedHash = "$" + parts[1] + "$" + parts[2] + "$" + parts[3] + "$" + tamperedDigest;
 
         assertFalse(hasher.verify(password, tamperedHash));
