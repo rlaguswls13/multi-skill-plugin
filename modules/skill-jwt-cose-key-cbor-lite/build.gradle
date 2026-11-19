@@ -1,0 +1,5 @@
+description = 'RFC 8152 / RFC 9052 COSE Key CBOR Parser for WebAuthn, Passkeys, and FIDO2'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
