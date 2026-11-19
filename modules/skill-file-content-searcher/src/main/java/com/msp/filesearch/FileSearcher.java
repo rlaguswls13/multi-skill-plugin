@@ -66,15 +66,11 @@ public final class FileSearcher {
                 : Pattern.compile(Pattern.quote(query.pattern()), regexFlags);
 
         PathMatcher globMatcher = FileSystems.getDefault().getPathMatcher("glob:" + query.fileGlob());
-        List<SearchResult> results = new ArrayList<>();
+        List<Path> candidateFiles = new ArrayList<>();
 
         Files.walkFileTree(rootDir, Collections.emptySet(), query.maxDepth(), new SimpleFileVisitor<>() {
             @Override
             public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
-                if (results.size() >= query.maxResults()) {
-                    return FileVisitResult.TERMINATE;
-                }
-
                 if (!attrs.isRegularFile()) {
                     return FileVisitResult.CONTINUE;
                 }
@@ -84,16 +80,7 @@ public final class FileSearcher {
                     return FileVisitResult.CONTINUE;
                 }
 
-                if (query.skipBinaryFiles() && isBinaryFile(file)) {
-                    return FileVisitResult.CONTINUE;
-                }
-
-                searchInFile(file, compiledPattern, query.maxResults(), results);
-
-                if (results.size() >= query.maxResults()) {
-                    return FileVisitResult.TERMINATE;
-                }
-
+                candidateFiles.add(file);
                 return FileVisitResult.CONTINUE;
             }
 
@@ -103,6 +90,19 @@ public final class FileSearcher {
                 return FileVisitResult.CONTINUE;
             }
         });
+
+        Collections.sort(candidateFiles);
+
+        List<SearchResult> results = new ArrayList<>();
+        for (Path file : candidateFiles) {
+            if (results.size() >= query.maxResults()) {
+                break;
+            }
+            if (query.skipBinaryFiles() && isBinaryFile(file)) {
+                continue;
+            }
+            searchInFile(file, compiledPattern, query.maxResults(), results);
+        }
 
         return Collections.unmodifiableList(results);
     }

@@ -98,7 +98,10 @@ class ProcessStreamMultiplexerTest {
     @Timeout(value = 5, unit = TimeUnit.SECONDS)
     @DisplayName("Multiplex live child process stdout and stderr")
     void testLiveProcessMultiplexing() throws Exception {
-        ProcessBuilder pb = new ProcessBuilder("cmd.exe", "/c", "echo hello from cmd && echo error from cmd 1>&2");
+        boolean isWindows = System.getProperty("os.name", "").toLowerCase().contains("win");
+        ProcessBuilder pb = isWindows
+                ? new ProcessBuilder("cmd.exe", "/c", "echo hello from cmd && echo error from cmd 1>&2")
+                : new ProcessBuilder("sh", "-c", "echo 'hello from cmd' && echo 'error from cmd' 1>&2");
         Process process = pb.start();
 
         List<StreamLine> lines = Collections.synchronizedList(new ArrayList<>());
