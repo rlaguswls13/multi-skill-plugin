@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+description = 'SQL Query Builder, Identifier Sanitizer, SQL Injection Detector, Keyset Seek Pagination, Sharding Router, and JSON Path Predicate Starter Bundle'
+
+dependencies {
+    api project(':modules:skill-sql-builder-lite')
+    api project(':modules:skill-sql-sanitizer-identifier')
+    api project(':modules:skill-sql-injection-detector')
+    api project(':modules:skill-sql-pagination-keyset-seek-builder')
+    api project(':modules:skill-sql-sharding-key-modulo-router')
+    api project(':modules:skill-sql-json-path-predicate-builder')
+}
