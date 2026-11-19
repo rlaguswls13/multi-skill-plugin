@@ -1,0 +1,5 @@
+description = 'Jaro and Jaro-Winkler string distance and similarity metric for record linkage and spelling correction'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
