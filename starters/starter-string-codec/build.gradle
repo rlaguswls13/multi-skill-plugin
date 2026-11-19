@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+description = 'Multi-Pattern String Search, Suffix Arrays, VarInt/LEB128, z-base-32, and ASN.1 BER-TLV Codec Starter Bundle'
+
+dependencies {
+    api project(':modules:skill-string-ac-automaton-multi-pattern')
+    api project(':modules:skill-string-knuth-morris-pratt-automaton')
+    api project(':modules:skill-string-suffix-array-lcp-builder')
+    api project(':modules:skill-byte-varint-leb128-protobuf-codec')
+    api project(':modules:skill-byte-zbase32-human-oriented-codec')
+    api project(':modules:skill-byte-tlv-ber-asn1-stream-codec')
+}

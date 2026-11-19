@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+description = 'Probabilistic Data Structures, Streaming Sketches, Roaring Bitmaps, and Consistent Hashing Starter Bundle'
+
+dependencies {
+    api project(':modules:skill-bloom-filter-lite')
+    api project(':modules:skill-sketch-hyperloglog-plus-mergeable')
+    api project(':modules:skill-sketch-tdigest-quantile-estimator')
+    api project(':modules:skill-sketch-count-min-lite')
+    api project(':modules:skill-bitmap-roaring-compressed-lite')
+    api project(':modules:skill-consistent-hashing')
+}

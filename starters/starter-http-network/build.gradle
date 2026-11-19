@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+description = 'HTTP Protocol, RFC 7807 Problem Details, CORS, ETag, RFC 8288 Link Headers, IP Bogon/SSRF Guard, and CIDR Starter Bundle'
+
+dependencies {
+    api project(':modules:skill-http-rfc7807-problem-details')
+    api project(':modules:skill-http-cors-preflight-evaluator')
+    api project(':modules:skill-http-etag-conditional-evaluator')
+    api project(':modules:skill-http-link-header-rfc8288-parser')
+    api project(':modules:skill-ip-private-bogon-reserved-classifier')
+    api project(':modules:skill-ip-subnet-cidr-calculator')
+}
