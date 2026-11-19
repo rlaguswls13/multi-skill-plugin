@@ -1,0 +1,5 @@
+description = 'Child Process Environment Variable Sanitizer preventing API keys, DB passwords, and sensitive token leaks'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

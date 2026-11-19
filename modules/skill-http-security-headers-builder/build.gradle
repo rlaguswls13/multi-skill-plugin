@@ -1,0 +1,5 @@
+description = 'Standard Security HTTP Response Headers Builder & Policy Validator (HSTS, CSP, X-Frame-Options, Permissions-Policy, COOP, COEP)'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

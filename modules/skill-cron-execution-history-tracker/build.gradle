@@ -1,0 +1,5 @@
+description = 'Cron Execution History, Drift Detection & Performance Anomaly Analyzer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
