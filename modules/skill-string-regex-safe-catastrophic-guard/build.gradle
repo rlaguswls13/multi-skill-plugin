@@ -1,0 +1,5 @@
+description = 'Regular Expression ReDoS (Catastrophic Backtracking) Safe Matcher with Step & Time Limits'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

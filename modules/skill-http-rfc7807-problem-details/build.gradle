@@ -1,0 +1,5 @@
+description = 'RFC 7807 and RFC 9457 Problem Details for HTTP APIs Builder & Serializer'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

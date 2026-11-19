@@ -1,0 +1,5 @@
+description = 'OS Process & Container Memory Metric Probe (Linux cgroups v1/v2 & Windows OS fallback)'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

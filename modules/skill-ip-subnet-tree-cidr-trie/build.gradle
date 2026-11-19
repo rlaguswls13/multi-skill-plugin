@@ -1,0 +1,5 @@
+description = 'Binary Radix Trie Subnet Search Tree for IPv4 and IPv6 CIDR Block Overlap and Containment'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

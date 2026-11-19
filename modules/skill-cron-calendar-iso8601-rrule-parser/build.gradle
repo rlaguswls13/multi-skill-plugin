@@ -1,0 +1,5 @@
+description = 'iCalendar RFC 5545 Recurrence Rule (RRULE) Parser and Date Range Occurrence Evaluator'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
