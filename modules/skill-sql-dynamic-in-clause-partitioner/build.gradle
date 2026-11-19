@@ -1,0 +1,5 @@
+description = 'SQL IN-clause collection partitioner and safe query generator bypassing DB parameter limits'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

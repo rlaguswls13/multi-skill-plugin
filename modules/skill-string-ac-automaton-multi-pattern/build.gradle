@@ -1,0 +1,5 @@
+description = 'Aho-Corasick Multi-Pattern Trie String Search Automaton for exact O(N) multi-keyword search'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

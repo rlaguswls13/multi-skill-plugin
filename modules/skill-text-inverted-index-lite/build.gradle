@@ -1,0 +1,5 @@
+description = 'In-memory Inverted Index Full-Text Search Engine supporting multi-field documents and Boolean Queries (AND, OR, NOT)'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

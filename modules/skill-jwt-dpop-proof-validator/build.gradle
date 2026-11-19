@@ -1,0 +1,5 @@
+description = 'RFC 9449 OAuth 2.0 DPoP (Demonstrating Proof-of-Possession at the Application Layer) Proof Validator'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

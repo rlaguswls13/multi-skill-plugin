@@ -1,0 +1,5 @@
+description = 'Memory-Efficient 2D Boolean BitMatrix Calculator using 64-bit Long BitSets'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Spatial Geofence Polygon Containment & Distance Checker using Ray Casting (Even-Odd) Algorithm'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

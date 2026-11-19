@@ -1,0 +1,5 @@
+description = 'Dual-Stage Hybrid Rate Limiter combining Token Bucket burst tolerance with Leaky Bucket uniform emission'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
