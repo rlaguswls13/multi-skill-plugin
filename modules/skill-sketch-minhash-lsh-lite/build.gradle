@@ -1,0 +1,5 @@
+description = 'MinHash and Locality-Sensitive Hashing (LSH) for Scalable Jaccard Similarity Estimation'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

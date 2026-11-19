@@ -1,0 +1,5 @@
+description = 'RFC 8949 Concise Binary Object Representation (CBOR) Streaming Tokenizer & Chunk Parser'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'SQL Common Table Expression (CTE) & WITH RECURSIVE Hierarchical Query Generator'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

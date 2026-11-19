@@ -1,0 +1,5 @@
+description = 'Dead-Letter Queue (DLQ) Manager & Poison Message Quarantine Orchestrator'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

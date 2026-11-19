@@ -1,0 +1,5 @@
+description = 'RFC 7516 JSON Web Encryption (JWE) RSA-OAEP & A256GCM Lite'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
