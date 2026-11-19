@@ -1,0 +1,5 @@
+description = 'Pure Java MessagePack Binary Serialization and Deserialization Codec with zero dependencies'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

@@ -1,0 +1,5 @@
+description = 'Server-Sent Events (SSE) Client with Auto-Reconnect, Backoff, and Last-Event-ID tracking in pure Java 21'
+
+dependencies {
+    // Pure Java 21 - Zero runtime dependencies
+}

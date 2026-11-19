@@ -1,0 +1,5 @@
+description = 'Boyer-Moore-Horspool Fast Substring and Subsequence Search for Text and Byte Arrays'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

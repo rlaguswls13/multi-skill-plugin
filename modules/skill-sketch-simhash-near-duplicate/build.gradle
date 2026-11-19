@@ -1,0 +1,5 @@
+description = '64-bit SimHash Locality-Sensitive Hashing for Near-Duplicate Document and Text Detection'
+
+dependencies {
+    // Pure Java 21 - Zero runtime dependencies
+}
