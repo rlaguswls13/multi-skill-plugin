@@ -1,0 +1,1 @@
+description = 'RFC 7616 HTTP Digest Access Authentication (SHA-256, SHA-256-sess, MD5, qop=auth, nonce/nc replay validation) in pure Java 21'

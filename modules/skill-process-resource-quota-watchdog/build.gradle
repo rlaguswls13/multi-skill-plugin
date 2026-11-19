@@ -1,0 +1,1 @@
+description = 'Child process execution watchdog enforcing wall-clock timeout, output byte quota, and idle timeout with clean process-tree termination'

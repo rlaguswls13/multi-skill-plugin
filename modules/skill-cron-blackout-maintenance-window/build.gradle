@@ -1,0 +1,1 @@
+description = 'Maintenance blackout window registry (one-time, daily, weekly with ZoneId), schedule conflict detection, and post-window delayed execution calculator in pure Java 21'

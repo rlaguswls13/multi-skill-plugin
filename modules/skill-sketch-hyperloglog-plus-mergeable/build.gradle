@@ -1,0 +1,1 @@
+description = 'HyperLogLog++ cardinality estimator with 64-bit Murmur3/SplitMix hash, sparse-to-dense transition, bias correction, lossless merge, and compact binary codec in pure Java 21'
