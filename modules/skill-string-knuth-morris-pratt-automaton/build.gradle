@@ -1,0 +1,1 @@
+description = 'Knuth-Morris-Pratt (KMP) Failure-Function Automaton for Zero-Backtracking O(N) Streaming Pattern Search'
