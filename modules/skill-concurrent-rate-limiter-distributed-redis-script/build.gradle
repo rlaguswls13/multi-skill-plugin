@@ -1,0 +1,5 @@
+description = 'Distributed Sliding Window Rate Limiter Logic and Local Java Emulator matching Redis Lua Script behavior'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

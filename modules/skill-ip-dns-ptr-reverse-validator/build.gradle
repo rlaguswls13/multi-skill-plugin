@@ -1,0 +1,5 @@
+description = 'Forward-Confirmed Reverse DNS (FCrDNS) Validator for Anti-Spoofing and Mail Server Validation'
+
+dependencies {
+    // Pure Java 21 - Zero runtime dependencies
+}

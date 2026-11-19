@@ -1,0 +1,5 @@
+description = 'Directed Acyclic Graph (DAG) Task Dependency Coordinator and Topological Pipeline Trigger'
+
+dependencies {
+    // Pure Java 21 - Zero runtime dependencies
+}

@@ -1,0 +1,5 @@
+description = 'Token Theft Prevention by Cryptographically Binding JWT to Client TLS Channel & Browser Fingerprint'
+
+dependencies {
+    // Pure Java 21 - Zero runtime dependencies
+}

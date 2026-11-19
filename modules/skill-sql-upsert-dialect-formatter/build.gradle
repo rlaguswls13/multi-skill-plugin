@@ -1,0 +1,5 @@
+description = 'Multi-Dialect SQL UPSERT (Insert or Update) Statement Generator supporting PostgreSQL, SQLite, MySQL, Oracle, H2, and SQL Server'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

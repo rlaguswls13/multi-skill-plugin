@@ -1,0 +1,5 @@
+description = 'CLI Process Virtual Terminal Buffer and ANSI Escape Code Filter'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
