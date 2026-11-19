@@ -1,0 +1,1 @@
+description = 'Database & table sharding router supporting Modulo, Consistent Hashing (virtual nodes), Range strategies, and scatter-gather route grouping'
