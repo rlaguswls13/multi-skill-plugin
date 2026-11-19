@@ -1,0 +1,5 @@
+description = 'Count-Min Sketch Probabilistic Frequency Estimation and Heavy Hitters Detection'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

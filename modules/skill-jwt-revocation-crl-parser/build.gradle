@@ -1,0 +1,5 @@
+description = 'RFC 5280 X.509 Certificate Revocation List (CRL) Parser and Real-time Revocation Checker'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21 standard library: java.security.cert)
+}

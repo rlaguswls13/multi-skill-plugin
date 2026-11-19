@@ -1,0 +1,5 @@
+description = 'BitTorrent standard Bencode Bidirectional Serialization and Deserialization Codec (BEP 0003)'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}

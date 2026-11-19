@@ -1,0 +1,5 @@
+description = 'RFC 7541 HTTP/2 HPACK Header Compression and Decompression Engine'
+
+dependencies {
+    // Zero runtime dependencies (Pure Java 21)
+}
